@@ -9,7 +9,7 @@ with st.sidebar:
 
 subject=st.text_input("💡 请输入视频的主题")
 video_length=st.number_input("⏱️ 请输入视频的大致时长（单位：分钟）",min_value=0.1,step=0.1)
-creativity=st.slider("✨ 请输入视频脚本的创造力（）",min_value=0.0,max_value=1.0,value=0.2,step=0.1)
+creativity=st.slider("✨ 请输入视频脚本的创造力（数字小说明更严谨，数字大说明更多样）",min_value=0.0,max_value=1.0,value=0.2,step=0.1)
 
 submit=st.button("生成脚本")
 
