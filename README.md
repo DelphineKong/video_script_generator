@@ -1,0 +1,2 @@
+# video_script_generator
+使用langchain框架+提示+阿里tongyi大模型API+Streamlit前端框=架搭建此视频脚本生成器
